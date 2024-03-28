@@ -1,0 +1,58 @@
+body{
+    background-color: black;
+    color:white
+}
+#navbarTogglerDemo03 li{
+    color: white;
+}
+#navbarTogglerDemo03{
+    flex-grow:unset;
+}
+.active{
+    color: #00FFA7 !important;
+}
+#chaintech{
+   background: linear-gradient(270deg, #00FFA7 0%, #FFFF00 100%);
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+#arrow_btn{
+    position: absolute;
+}
+#services{
+    color: black;
+}
+#C_img{
+    left: 10px;
+    top: 4px;
+
+}
+#H_img{
+    left: 15px;
+    top: 9px;
+}
+#topic::after{
+    content: "";
+    position: absolute;
+    left: -11px;
+    bottom: 0;
+    height: 1px;
+    width: 107%;
+    border-bottom: 2px solid black;
+}
+#main::after{
+    content: "";
+    position: absolute;
+    left: -11px;
+    bottom: 0;
+    height: 1px;
+    width: 107%;
+    border-bottom: 2px solid black;
+}
+
+#single_card{
+    background:#d9fdff
+}
